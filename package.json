@@ -1,0 +1,42 @@
+{
+  "name": "qshield-js",
+  "version": "1.0.0",
+  "description": "The node library for QShield",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "keywords": [
+    "post-quantum",
+    "ml-kem",
+    "kyber",
+    "quantum-resistant",
+    "encryption",
+    "chacha20",
+    "pqc",
+    "browser"
+  ],
+  "author": "QShield <qshieldapp@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/qshieldapp/qshield-js",
+  "bugs": "https://github.com/qshieldapp/qshield-js/issues",
+  "homepage": "https://github.com/qshieldapp/qshield-js#readme",
+  "dependencies": {
+    "base64-arraybuffer": "^0.2.0",
+    "crystals-kyber-js": "^2.0.2",
+    "ts-chacha20": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
