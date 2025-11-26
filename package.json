@@ -1,6 +1,6 @@
 {
   "name": "qshield-js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The node library for QShield",
   "main": "index.js",
   "type": "module",
@@ -32,9 +32,11 @@
   "bugs": "https://github.com/qshieldapp/qshield-js/issues",
   "homepage": "https://github.com/qshieldapp/qshield-js#readme",
   "dependencies": {
-    "base64-arraybuffer": "^0.2.0",
-    "crystals-kyber-js": "^2.0.2",
-    "ts-chacha20": "^1.2.0"
+    "base64-arraybuffer": "^1.0.2",
+    "buffer": "^6.0.3",
+    "crystals-kyber-js": "^2.5.0",
+    "js-chacha20": "^1.1.0",
+    "ts-chacha20": "^1.1.0"
   },
   "engines": {
     "node": ">=16"
